@@ -40,5 +40,5 @@ var quizQuestions = [ {
     {
         title: "In JavaScript, which of the following is NOT an assignment operator?",
         choices: ["+=", "||", "*=", "="],
-        answer: "||"
+        answer: "||!"
     } ]
