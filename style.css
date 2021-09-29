@@ -1,0 +1,47 @@
+body {
+    background-color:#DB9289;
+}
+
+#timer {
+
+    
+}
+
+
+header {
+    margin-top: 40px;
+align-content: center;
+
+}
+
+a { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#questionBox {
+    margin: 25%;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+h1 {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {text-align: center;
+
+}
+
+#start {
+    padding: 20px 28px;
+    margin-left: 40%;
+    margin-top: 38% ;
+    font-size: 20px;
+    color: white;
+}
+
