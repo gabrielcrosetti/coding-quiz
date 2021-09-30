@@ -92,11 +92,11 @@ function compare(event) {
 
         if (element.textContent == questions[questionsIndex].answer) {
             score++;
-            createDiv.textContent = "Correct the answer is:  " + questions[questionsIndex].answer;
+            createDiv.textContent = "Correct. The answer is:  " + questions[questionsIndex].answer;
         } else {
             // Will deduct -7 seconds off secondsLeft for wrong answers
             timeLeft = timeLeft - penaltyTime;
-            createDiv.textContent = "Wrong the correct answer is:  " + questions[questionsIndex].answer;
+            createDiv.textContent = "Wrong. The correct answer is:  " + questions[questionsIndex].answer;
         }
 
     }
@@ -106,7 +106,7 @@ function compare(event) {
 
     if (questionsIndex >= questions.length) {
         allDone();
-        createDiv.textContent = "Quiz Completed" + " " + "You scored  " + score + "/" + questions.length + " correct";
+        createDiv.textContent = "Quiz Completed." + " " + " You scored  " + score + "/" + questions.length + " correct.";
     } else {
         render(questionBox);
     }

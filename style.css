@@ -8,12 +8,13 @@ display: none;
 }
 
 #currentTime {
+    margin-right: 50px;
     float: right;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#container {
-    
-}
+
 
 #questionBox {
     margin: 20px;
@@ -24,7 +25,7 @@ header {
     margin-top: 40px;
 justify-content: center;
 color: black;
-font-size: 25px;
+font-size: 23px;
 
 }
 
@@ -88,8 +89,8 @@ input {
 
 
 p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center
 }
 
 h1 {
@@ -99,9 +100,6 @@ h1 {
     text-align: center;
 }
 
-p {text-align: center;
-
-}
 
 #start {
     padding: 17px 33px;
@@ -111,12 +109,21 @@ p {text-align: center;
     color:black;
 }
 
+.questions {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
 li {
     margin-top: 10px;
     padding: 5px 15px;
     width: 80%;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
 }
 
 #createDiv {
