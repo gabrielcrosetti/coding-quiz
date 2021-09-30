@@ -23,6 +23,7 @@ This is a responsive, timed coding quiz that is composed of 5 JavaScript questio
 
 ## Deployed Link
 
+https://gabrielcrosetti.github.io/coding-quiz/
 
 ## Summary
 
