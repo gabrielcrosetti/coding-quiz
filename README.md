@@ -10,10 +10,17 @@ This is a responsive, timed coding quiz that is composed of 5 JavaScript questio
 * Git
 * GitHub
 
-## Site Picture
+## Site Pictures
+
+<img width="1439" alt="Screen Shot 2021-09-29 at 11 06 48 PM" src="https://user-images.githubusercontent.com/89226867/135382836-804a45cf-d16b-42c6-8bdb-040b81f86d54.png">
+<img width="1440" alt="Screen Shot 2021-09-29 at 11 07 40 PM" src="https://user-images.githubusercontent.com/89226867/135382873-e7bee8d0-9942-4a5c-ac15-c769f13eaa8e.png">
+
+
 
 
 ## Code Snippet 
+
+<img width="530" alt="Screen Shot 2021-09-29 at 11 13 00 PM" src="https://user-images.githubusercontent.com/89226867/135382858-558f4c7b-dd1b-4d2b-ab9d-e4173e62d648.png">
 
 
 ## Deployed Link
