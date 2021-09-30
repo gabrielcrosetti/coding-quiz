@@ -44,18 +44,19 @@ var questions = [{
     answer: "||!"
 }]
 
-// Triggers a timer on button and shows the user a display on the screen
+// Sets a timer on button and shows the user a display on the screen
+
 start.addEventListener("click", function () {
 
     if (holdInterval === 0) {
         holdInterval = setInterval(function () {
             timeLeft--;
-            currentTime.textContent = "Time: " + timeLeft;
+            currentTime.textContent = "Time remaining: " + timeLeft;
 
             if (timeLeft <= 0) {
                 clearInterval(holdInterval);
                 allDone();
-                currentTime.textContent = "Time's up!";
+                currentTime.textContent = "TIME IS UP";
             }
         }, 1000);
     }
