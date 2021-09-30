@@ -23,6 +23,8 @@ header {
     display: flex;
     margin-top: 40px;
 justify-content: center;
+color: black;
+font-size: 25px;
 
 }
 
@@ -70,8 +72,8 @@ textarea {
 
 #Submit {
     margin-left: 33%;
-    padding: 15px 32px;
     font-size: 20px;
+    padding: 13px 28px;
     color: white;
 }
 
@@ -91,6 +93,7 @@ p {
 }
 
 h1 {
+    font-size: 50px;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -102,10 +105,10 @@ p {text-align: center;
 
 #start {
     padding: 17px 33px;
-    margin-left: 40%;
+    margin-left: 45%;
     margin-top: 38% ;
     font-size: 20px;
-    color: white;
+    color:black;
 }
 
 li {
