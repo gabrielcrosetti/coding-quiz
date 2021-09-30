@@ -44,7 +44,7 @@ var questions = [{
     answer: "||!"
 }]
 
-// Triggers timer on button, shows user a display on the screen
+// Triggers a timer on button and shows the user a display on the screen
 start.addEventListener("click", function () {
 
     if (holdInterval === 0) {
@@ -62,16 +62,14 @@ start.addEventListener("click", function () {
     render(questionBox);
 });
 
-// Renders questions and choices to page 
+// Renders questions and the choices to page 
 function render(questionBox) {
-    // Clears existing data 
     questionBox.innerHTML = "";
     ulCreate.innerHTML = "";
-    // for (var i = 0; i < questions.length; i++) {
+   
     var userQuestion = questions[questionsIndex].title;
     var userChoices = questions[questionsIndex].choices;
     questionBox.textContent = userQuestion;
-    // }
 
     userChoices.forEach(function (newItem) {
         var listItem = document.createElement("li");
@@ -81,7 +79,7 @@ function render(questionBox) {
         listItem.addEventListener("click", (compare));
     })
 }
-// Event to compare choices with answer
+// Event to compare the user choices with answer
 function compare(event) {
     var element = event.target;
 
@@ -94,7 +92,7 @@ function compare(event) {
             score++;
             createDiv.textContent = "Correct. The answer is:  " + questions[questionsIndex].answer;
         } else {
-            // Will deduct -7 seconds off secondsLeft for wrong answers
+            // Will deduct -7 seconds off timeLeft for wrong answers
             timeLeft = timeLeft - penaltyTime;
             createDiv.textContent = "Wrong. The correct answer is:  " + questions[questionsIndex].answer;
         }
